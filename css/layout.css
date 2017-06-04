@@ -1,0 +1,45 @@
+body, html {
+    font-family: FuturaStd, Georgia, sans-serif;
+    font-weight: normal;  
+}
+
+/*Layout*/
+.l-header {
+    height: 90px;
+    background-color: #000;
+    color: #fff;
+}
+
+.l-footer {
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+}
+
+.l-nav-left {
+    background-color: #fff;
+
+}
+
+.logo {
+font-family: 'Futura-Medium', Arial, Helvetica, sans-serif;
+font-weight: 200;
+font-size: 20px;
+padding: 50px 0 15px 0;
+}
+
+/*Typography*/
+.bd-sidebar {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-height: 700px;
+
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 50px 0 0 0;
+}

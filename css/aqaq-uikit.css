@@ -1,0 +1,47 @@
+/*TYPOGRAPHY*/
+h2 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+}
+
+h2:first-child {
+  margin: 40px 0 10px;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/*  BUTTONS  */
+.btn-black {
+  background-color: #000;
+  color: #fff;
+  border: 0px transparent;
+  cursor: pointer;
+  outline:none;
+  margin: 0 20px 0 0;
+  font-family: 'Futura';
+  letter-spacing: 1px;
+}
+
+.btn-black:hover {
+  opacity: 0.8;
+  transition: all 0.15 ease;
+}
+
+.btn-size-L {
+  height: 50px;
+  padding: 11px 30px 9px;
+  font-size: 18px;
+}
+
+.btn-size-M {
+  padding: 11px 30px 9px;
+  font-size: 14px;
+}
+
+.btn-size-S {
+  padding: 11px 30px 9px;
+  font-size: 12px;
+}
