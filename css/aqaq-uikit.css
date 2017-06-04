@@ -1,4 +1,9 @@
 /*TYPOGRAPHY*/
+h1, h2, h3, h4, h5, p, a, li {
+  color: #000;
+  letter-spacing: 1px;
+}
+
 h1 {
   font-size: 30px;
   font-weight: normal;
@@ -34,16 +39,26 @@ h5 {
   margin: 20px 0 10px;
 }
 
-
 p {
   font-size: 14px;
+  line-height: 20px;
 }
 
-h1, h2, h3, h4, h5, p, li {
-  letter-spacing: 1px;
-
-
+a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.7);
 }
+
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  color: rgba(0,0,0,0.4);
+}
+
+/*p t-small {
+  font-size: 12px;
+  line-height: 16px;
+}*/
 
 /*  BUTTONS  */
 .btn-black {
