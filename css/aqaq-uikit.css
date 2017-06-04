@@ -1,16 +1,48 @@
 /*TYPOGRAPHY*/
-h2 {
-  font-size: 24px;
-  margin: 20px 0 10px;
-}
-
-h2:first-child {
+h1 {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1.5;
   margin: 40px 0 10px;
 }
 
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 40px 0 10px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 20px 0 10px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 20px 0 10px;
+}
+
+h5 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 20px 0 10px;
+}
+
+
 p {
   font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, p, li {
   letter-spacing: 1px;
+
+
 }
 
 /*  BUTTONS  */
